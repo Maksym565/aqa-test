@@ -6,7 +6,7 @@ export default defineConfig({
   retries: 1,
   workers: 1,
   use: {
-    headless: false,
+    headless: true,
     actionTimeout: 10000,
     navigationTimeout: 30 * 1000,
     baseURL: process.env.TEST_URL,
